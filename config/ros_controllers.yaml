@@ -66,4 +66,4 @@ controller_list:
     default: True
     type: FollowJointTrajectory
     joints:
-      []
+      - torso_lift_joint
