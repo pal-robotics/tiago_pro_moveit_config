@@ -66,4 +66,18 @@ controller_list:
     default: True
     type: FollowJointTrajectory
     joints:
-      []
+      - torso_lift_joint
+
+  - name: gripper_left_controller
+    action_ns: follow_joint_trajectory
+    default: True
+    type: FollowJointTrajectory
+    joints:
+      - gripper_left_finger_joint
+
+  - name: gripper_right_controller
+    action_ns: follow_joint_trajectory
+    default: True
+    type: FollowJointTrajectory
+    joints:
+      - gripper_right_finger_joint

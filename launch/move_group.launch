@@ -22,6 +22,11 @@
 
   <arg name="capabilities" default=""/>
   <arg name="disable_capabilities" default=""/>
+  <!-- Use moveit camera manager -->
+  <arg name="camera"  default="false"/>
+  <arg name="moveit_sensor_manager" default="tiago_pro"/>
+  
+  
   <!-- load these non-default MoveGroup capabilities (space seperated) -->
   <!--
   <arg name="capabilities" value="
@@ -60,9 +65,10 @@
   </include>
 
   <!-- Sensors Functionality -->
-  <!--<include ns="move_group" file="$(find tiago_pro_moveit_config)/launch/sensor_manager.launch.xml" if="$(arg allow_trajectory_execution)">
-    <arg name="moveit_sensor_manager" value="tiago_pro" />
-  </include>-->
+  <group if="$(arg camera)">
+    <include file="$(find tiago_pro_moveit_config)/launch/$(arg moveit_sensor_manager)_moveit_sensor_manager.launch.xml" />
+  </group>
+
 
   <!-- Start the actual move_group node/action server -->
   <node name="move_group" launch-prefix="$(arg launch_prefix)" pkg="moveit_ros_move_group" type="move_group" respawn="false" output="screen" args="$(arg command_args)">
