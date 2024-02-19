@@ -2,6 +2,21 @@
 Changelog for package tiago_pro_moveit_config
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'updated-srdf' into 'master'
+  Updated srdf
+  See merge request robots/tiago_pro_moveit_config!5
+* Removed unnecessary extra include step
+* Added parameters to enable octomap
+* added gripper links to group
+* Added pointcloud and octomap parameters
+* Added gripper controllers
+* added advanced grasping config files
+* Add torso controller
+* update srdf with pal-pro-gripper
+* Contributors: Adria Roig, ileniaperrella, sergiacosta, thomas.peyrucain
+
 0.3.6 (2023-10-20)
 ------------------
 * Merge branch 'change_name' into 'master'
