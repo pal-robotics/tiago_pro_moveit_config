@@ -2,8 +2,8 @@
 Changelog for package tiago_pro_moveit_config
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.3.7 (2024-02-19)
+------------------
 * Merge branch 'updated-srdf' into 'master'
   Updated srdf
   See merge request robots/tiago_pro_moveit_config!5
