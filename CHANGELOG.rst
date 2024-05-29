@@ -2,6 +2,16 @@
 Changelog for package tiago_pro_moveit_config
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'dtk/fix/bug-fixes' into 'master'
+  Dtk/fix/bug fixes
+  See merge request robots/tiago_pro_moveit_config!15
+* Update dependencies
+* Add missing dependencies
+* Remove arms_torso from kinematics
+* Contributors: David ter Kuile, davidterkuile
+
 0.3.7 (2024-02-19)
 ------------------
 * Merge branch 'updated-srdf' into 'master'
