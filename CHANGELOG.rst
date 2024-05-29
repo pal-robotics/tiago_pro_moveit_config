@@ -2,8 +2,8 @@
 Changelog for package tiago_pro_moveit_config
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.3.8 (2024-05-29)
+------------------
 * Merge branch 'dtk/fix/bug-fixes' into 'master'
   Dtk/fix/bug fixes
   See merge request robots/tiago_pro_moveit_config!15
