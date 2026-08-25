@@ -2,8 +2,8 @@
 Changelog for package tiago_pro_moveit_config
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.5.2 (2026-08-25)
+------------------
 * Fix default value for end effector
 * Contributors: Aina Irisarri
 
